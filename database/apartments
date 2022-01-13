@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "61deac2f21340261f1278ca1"
+  },
+  "apartmentNo": "4",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      149.1647789,
+      -35.3629289
+    ]
+  },
+  "altitude": 4.8,
+  "arucoID": 4
+}]
