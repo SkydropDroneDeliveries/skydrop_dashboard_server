@@ -5,10 +5,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const PORT = process.env.PORT | 4000;
 
-const SCRIPT_NAME = '/home/nipuniyr/catkin_ws/src/skydrop/src/autonomous_navigation/autonomousGPSIMU_mongoDB.py'
-//const SCRIPT_NAME = '/home/nipuniyr/catkin_ws/src/skydrop/src/autonomous_navigation/test.py'
-//todo: Get Apartment_No from the front end response
-//APARTMENT_NO = '4'
+const SCRIPT_NAME = '~/catkin_ws/src/skydrop/src/autonomous_navigation/autonomousGPSIMU_mongoDB.py'
 
 app.use(cors())
 // app.use(fileuploader({createParentPath: true}))
